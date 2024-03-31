@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
 }
 /*header css*/
 #section{
@@ -48,7 +49,7 @@ H2{
     border: none;
     height: 50px;
     width: 170px;
-    border-radius: 10px;
+    border-radius: 10px 50px;
 }
 
 /*header css end*/
@@ -89,3 +90,219 @@ H2{
 
 
 /*section 1css end */
+
+/*section 2 css*/
+#section2{
+    width: 100%;
+    height: fit-content;
+    background-image: url("/assets/image\ 6.png");
+    display: flex;
+    justify-content: space-around;
+}
+.row {
+    margin-left: 50px;
+}
+
+.card{
+    border-radius: 20px;
+    width: 190px;
+    height: 230px;
+    background-color: #7e5948dd;
+    display: flex;
+    margin: 10px;
+    justify-self: center;
+}
+.card:hover{
+    background-color: black ;
+    scale: 1.1;
+
+}
+.card:hover button{
+    
+    background-color: #7e5948dd;
+}
+.card img{
+    width: 150px;
+    height: 100px;
+    align-self: center;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+    top: 4px;
+    
+}
+.card p{
+    font-size: 10px;
+    color: #fff;
+    position: relative;
+    bottom: 8px;
+}
+.card h5{
+    font-size: 17px;
+    font-weight: bolder;
+    color: #fff;
+    position: relative;
+    bottom: 8px;
+
+}
+.card span{
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+}
+.card button{
+    border: none;
+    width: 100px;
+    padding: 5px;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    border-radius: 8px 25px;
+    background-color: #1d0a01;
+    color: #fff;
+}
+.card button:hover{
+    background-color: #683a27;
+    box-shadow: 5px 5px 5px #fff;
+}
+h3{
+    position: relative;
+    left: 35%;
+    font-weight: bolder;
+    color: #B77E66;
+    font-size: 60px;
+}
+h3::first-letter{
+    color: #683a27;
+}
+
+/* section 2 css end*/
+
+/*section 3css*/
+#section3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right , #1d0a01,#7e5948dd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reservation{
+    background-color: black;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to bottom right ,#7e5948dd, #1d0a01);
+}
+#inputs{
+    position: relative;
+    right: 300px;
+}
+#date,#text,#tele{
+    display: block;
+    width: 300px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: -5px 5px 5px burlywood;
+
+}
+#time,#number,#email{
+    display: inline-block;
+    margin: 20px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: -5px 5px 5px burlywood;
+}
+#button{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px 20px;
+    border: 2px burlywood solid;
+    background-color: #683a27;
+    color: #fff;
+    box-shadow: -5px 5px 5px burlywood;
+    
+
+}
+#s3im1{
+    width: 40%;
+    height: 100%;
+}
+#s3im2{
+    width: 50%;
+    height: 40%;
+    position: relative;
+    bottom: 180px;
+    left: 150px;
+
+}
+/*section 3 css end*/
+
+/* section 5 css*/
+#section5{
+    width: 100%;
+    height: 50%;
+    
+}
+#map1{
+    width: 98%;
+    height: 90%;
+    margin-left: 18px;
+    margin-top: 20px;
+    border: #683a27 solid 10px;
+}
+#map2{
+    position: relative;
+    bottom: 300px;
+}
+/*section5 css end*/
+/*FOOTER CSS */
+
+footer{
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    background-image: url("/assets/footer.jpeg");
+    background-size:cover;
+}
+footer #opacity{
+    width: 100%;
+    height: 100%;
+    background-color: #140b06e3;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+
+}
+footer span{
+    color: #fff;
+    font-size: 20px;
+}
+#sm{
+    position: absolute;
+    right: 0;
+}
+footer .row img{
+    width: 250px;
+}
+.col2,.col3,.col4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col2 svg,.col3 svg,.col4 svg{
+    color: #fff;
+}
+.col2 a:hover,.col3 a:hover,.col4 a:hover{
+    color: #be5427;
+}
+
+/*FOOTER CSS END*/
+
