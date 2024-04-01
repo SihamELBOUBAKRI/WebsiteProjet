@@ -396,6 +396,9 @@ footer .row img{
         height: 50%;
         bottom: 160px;
     }
+    #section4{
+        height: fit-content;
+    }
     #section4 .card{
         margin: 10px;
         width: 270px;
@@ -423,4 +426,316 @@ footer .row img{
         width: 100px;
     }
     
-} 
+}
+
+@media only screen and (max-width:375px){
+    #section H2{
+        top: 80px;
+        left: 30px;
+        margin-top: 10px;
+    }
+    #hpara{
+        font-size: 12px;
+        top: 80px;
+        left: 30px;
+    }
+    #hbutton{
+        font-size: 14px;
+        width:120px;
+        height: 50px;
+        top: 80px;
+        left: 50px;
+    }
+    #ourstory{
+        height: 40%;
+    }
+    #s1img1{
+        display: none;
+    }
+    #s1img2{
+        bottom: 11px;
+        left: 15px;
+        width: 100px;
+        height: 50px;
+    }
+    #s1p{
+        font-size: 10px;
+        bottom: 30px;
+        left: 9px;
+        line-height : 25px;
+    }
+    #ourstory{
+        width: 93%;
+        height: 35%;
+    }
+    #section2{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #section2 h3{
+        font-size: 50px;
+        left: 5%;
+    }
+    #section2 .card{
+        width: 180px;
+        height: 200px;
+    }
+    #section2 .card img{
+        width: 80px;
+        height: 70px;
+        border-radius: 20px;
+    }
+    #section2 .card p{
+        font-size: 9px;
+    }
+    #section2 .card h5{
+        font-size: 14px;
+    }
+    #section2 .card span{
+        font-size: 14px;
+    }
+    #section2 .card button{
+        border: none;
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+        bottom: 10px;
+    }
+    #section3 #inputs{
+        right: 210px;
+    }
+    #date,#text,#tele{
+        width: 250px;
+        height: 35px;
+    
+    }
+    #time,#number,#email{
+        width: 100px;
+        height: 35px;
+    }
+    #s3im1{
+        display: none;
+    }
+    #s3im2{
+        width: 70%;
+        height: 50%;
+        bottom: 180px;
+        object-fit: contain;
+    }
+    #section4{
+        height: fit-content;
+    }
+    #section4 .card{
+        margin: 5px;
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        flex-direction: row;
+        margin-left: 80px;
+    }
+    #section4 .card img {
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        margin-top: 5px;
+    }
+    .card h5{
+        font-size: 12px;
+    }
+    .card p{
+        font-size: 7px;
+    }
+    #map1{
+        object-fit: cover;
+        width: 99%;
+        margin-left: 1px;
+    }
+    #map2{
+        left: 4px;
+        width: 100px;
+        height: 50px;
+        bottom: 270px;
+        object-fit: contain;
+    }
+    footer .row img{
+        width: 90px;
+    }
+    .col2,.col3{
+        font-size: 10px;
+        position: relative;
+        top: 80px;
+    }
+    .col4{
+        font-size: 7px;
+    }
+    .col4 svg{
+        display: none;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+    footer #sm span{
+       font-size: 10px ;
+    }
+    footer #sm a img{
+        width: 15px ;
+     }
+}
+
+@media only screen and (max-width:320px){
+    #section H2{
+        top: 80px;
+        left: 30px;
+        margin-top: 10px;
+    }
+    #hpara{
+        font-size: 12px;
+        top: 80px;
+        left: 30px;
+    }
+    #hbutton{
+        font-size: 14px;
+        width:120px;
+        height: 50px;
+        top: 80px;
+        left: 50px;
+    }
+    #ourstory{
+        height: 40%;
+    }
+    #s1img1{
+        display: none;
+    }
+    #s1img2{
+        bottom: 11px;
+        left: 15px;
+        width: 100px;
+        height: 50px;
+    }
+    #s1p{
+        font-size: 8px;
+        bottom: 30px;
+        left: 8px;
+        line-height : 25px;
+    }
+    #ourstory{
+        width: 93%;
+        height: 35%;
+    }
+    #section2{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #section2 h3{
+        font-size: 40px;
+        left: 5%;
+    }
+    #section2 .card{
+        width: 140px;
+        height: 180px;
+    }
+    #section2 .card img{
+        width: 80px;
+        height: 70px;
+    }
+    #section2 .card p{
+        font-size: 7px;
+    }
+    #section2 .card h5{
+        font-size: 11px;
+    }
+    #section2 .card span{
+        font-size: 11px;
+    }
+    #section2 .card button{
+        border: none;
+        width: 70px;
+        height: 30px;
+        font-size: 7px;
+        bottom: 10px;
+    }
+    #section3 #inputs{
+        right: 180px;
+    }
+    #date,#text,#tele{
+        width: 200px;
+        height: 35px;
+    
+    }
+    #time,#number,#email{
+        width: 70px;
+        height: 35px;
+    }
+    #s3im1{
+        display: none;
+    }
+    #s3im2{
+        width: 70%;
+        height: 50%;
+        bottom: 180px;
+        object-fit: contain;
+    }
+    #section4{
+        height: fit-content;
+    }
+    #section4 .card{
+        margin: 5px;
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        flex-direction: row;
+        margin-left: 50px;
+    }
+    #section4 .card img {
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        margin-top: 5px;
+    }
+    .card h5{
+        font-size: 12px;
+    }
+    .card p{
+        font-size: 7px;
+    }
+    #map1{
+        object-fit: cover;
+    }
+    #map2{
+        width: 100px;
+        height: 50px;
+        bottom: 270px;
+        object-fit: contain;
+    }
+    footer .row img{
+        width: 90px;
+    }
+    .col2,.col3{
+        font-size: 10px;
+        position: relative;
+        top: 80px;
+    }
+    .col4{
+        font-size: 7px;
+    }
+    .col4 svg{
+        display: none;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+    footer #sm span{
+       font-size: 10px ;
+    }
+    footer #sm a img{
+        width: 15px ;
+     }
+}
+
+
+
+
+ 
+
