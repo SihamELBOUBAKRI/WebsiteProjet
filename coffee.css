@@ -22,7 +22,7 @@ body{
     margin: 0 15px;
     font-weight: bolder;
 }
-H2{
+#section H2{
     color: #fff;
     position: relative;
     top: 100px;
@@ -41,6 +41,7 @@ H2{
     display:table;
 }
 #hbutton{
+    box-shadow: -10px 10px 5px #be5427;
     color: #fff;
     position: relative;
     top: 140px;
@@ -99,11 +100,11 @@ H2{
     display: flex;
     justify-content: space-around;
 }
-.row {
+#section2 .row {
     margin-left: 50px;
 }
 
-.card{
+#section2 .card{
     border-radius: 20px;
     width: 190px;
     height: 230px;
@@ -112,18 +113,18 @@ H2{
     margin: 10px;
     justify-self: center;
 }
-.card:hover{
+#section2 .card:hover{
     background-color: black ;
     scale: 1.1;
 
 }
-.card:hover button{
+#section2 .card:hover button{
     
     background-color: #7e5948dd;
 }
-.card img{
-    width: 150px;
-    height: 100px;
+#section2 .card img{
+    max-width: 150px;
+    max-height: 100px;
     align-self: center;
     border-radius: 10px;
     object-fit: cover;
@@ -131,13 +132,13 @@ H2{
     top: 4px;
     
 }
-.card p{
+#section2 .card p{
     font-size: 10px;
     color: #fff;
     position: relative;
     bottom: 8px;
 }
-.card h5{
+#section2 .card h5{
     font-size: 17px;
     font-weight: bolder;
     color: #fff;
@@ -145,12 +146,12 @@ H2{
     bottom: 8px;
 
 }
-.card span{
+#section2 .card span{
     color: #fff;
     position: relative;
     bottom: 10px;
 }
-.card button{
+#section2 .card button{
     border: none;
     width: 100px;
     padding: 5px;
@@ -161,11 +162,11 @@ H2{
     background-color: #1d0a01;
     color: #fff;
 }
-.card button:hover{
+#section2 .card button:hover{
     background-color: #683a27;
     box-shadow: 5px 5px 5px #fff;
 }
-h3{
+#section2 h3{
     position: relative;
     left: 35%;
     font-weight: bolder;
@@ -187,7 +188,7 @@ h3::first-letter{
     justify-content: center;
     align-items: center;
 }
-#reservation{
+#section3 #reservation{
     background-color: black;
     width: 90%;
     height: 70%;
@@ -195,7 +196,7 @@ h3::first-letter{
     align-items: center;
     background-image: linear-gradient(to bottom right ,#7e5948dd, #1d0a01);
 }
-#inputs{
+#section3 #inputs{
     position: relative;
     right: 300px;
 }
@@ -226,8 +227,11 @@ h3::first-letter{
     background-color: #683a27;
     color: #fff;
     box-shadow: -5px 5px 5px burlywood;
-    
-
+}
+#button:hover{
+    box-shadow: none;
+    color: burlywood;
+    background-color: black;
 }
 #s3im1{
     width: 40%;
@@ -243,11 +247,49 @@ h3::first-letter{
 }
 /*section 3 css end*/
 
+/*section 4 css*/
+#section4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #180e0a;
+}
+#section4 h2{
+    color: #fff;
+    margin-top: 2px;
+    position: static;
+}
+#section4 .card{
+    display: flex;
+    align-items: center;
+    background-color: #B77E66;
+    border-radius: 50px;
+
+}
+#section4 .card img {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+.card h5{
+    align-self: center;
+    color: #fff;
+}
+.card p{
+    align-self: center;
+    color: antiquewhite;
+}
+/*section 4 css end*/
+
 /* section 5 css*/
 #section5{
     width: 100%;
     height: 50%;
-    
+    background-color: #180e0a;
+
 }
 #map1{
     width: 98%;
@@ -306,3 +348,79 @@ footer .row img{
 
 /*FOOTER CSS END*/
 
+@media only screen and (max-width:767px ){
+    #section H2{
+        top: 80px;
+        left: 50px;
+        margin-top: 20px;
+    }
+    #hpara{
+        top: 80px;
+        left: 50px;
+    }
+    #hbutton{
+        top: 80px;
+        left: 50px;
+    }
+    #ourstory{
+        height: 40%;
+    }
+    #s1img1{
+        display: none;
+    }
+    #s1img2{
+        bottom: 30px;
+        left: 10px;
+    }
+    #s1p{
+        font-size: 13px;
+        bottom: 90px;
+        left: 10px;
+        line-height: 25px;
+    }
+    #section2{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #section2 h3{
+        left: 17%;
+    }
+    #section3 #inputs{
+        right: 180px;
+    }
+    #s3im1{
+        display: none;
+    }
+    #s3im2{
+        width: 50%;
+        height: 50%;
+        bottom: 160px;
+    }
+    #section4 .card{
+        margin: 10px;
+        width: 270px;
+        height: 300px;
+    
+    }
+    #section4 .card img {
+        border-radius: 100px;
+        width: 170px;
+        height: 170px;
+        margin-top: 5px;
+    }
+    #map1{
+        margin: 5px;
+        border: #683a27 solid 10px;
+    }
+    footer .row img{
+        width: 150px;
+    }
+    .col2,.col3,.col4,.col-3 img{
+        position: relative;
+        top: 80px;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    
+} 
