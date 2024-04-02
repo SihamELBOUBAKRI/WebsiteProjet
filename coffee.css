@@ -530,7 +530,11 @@ footer .row img{
     }
     footer #sm a img{
         width: 15px ;
-     }
+    }
+     
+    #reservation{
+        background: none !important;
+    }
 }
 
 @media only screen and (max-width:320px){
@@ -538,6 +542,7 @@ footer .row img{
         top: 80px;
         left: 30px;
         margin-top: 10px;
+        font-size: 15px;
     }
     #hpara{
         font-size: 12px;
@@ -622,12 +627,15 @@ footer .row img{
     }
     #s3im2{
         width: 70%;
-        height: 50%;
+        height: 40%;
         bottom: 180px;
-        object-fit: contain;
+        margin-right: 50px !important;
     }
     .card h5{
         font-size: 12px;
+    }
+    #reservation{
+        background: none !important;
     }
     .card p{
         font-size: 7px;
