@@ -40,18 +40,6 @@ body{
     font-weight: lighter;
     display:table;
 }
-#hbutton{
-    box-shadow: -10px 10px 5px #be5427;
-    color: #fff;
-    position: relative;
-    top: 140px;
-    left: 200px;
-    background-color: #B77E66;
-    border: none;
-    height: 50px;
-    width: 170px;
-    border-radius: 10px 50px;
-}
 
 /*header css end*/
 

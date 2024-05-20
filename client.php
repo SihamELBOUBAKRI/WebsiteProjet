@@ -50,32 +50,6 @@
         <p id="hpara"> welcom to bartons incredibly , your best local coffee,<br> in addition to delicious
              sandwiches and cakes <br>and hot dish of the day
         </p>
-        <button id="hbutton" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Join Our F.Client </button>
-        <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Join Our Favourit Client </h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form >
-                  <input type="file" id="image-upload" accept="image/*">
-                  <input type="text" placeholder="First Name" required>
-                  <input type="text" placeholder="Last Name" required>
-                  <input type="text" placeholder="Email" required>
-                  <input type="text" placeholder="Phone Number" required>
-                  <button>Join</button>
-              </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Join</button>
-              </div>
-            </div>
-          </div>
-        </div>
     </header>
 
 
